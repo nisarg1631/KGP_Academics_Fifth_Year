@@ -1,0 +1,74 @@
+SVM model
+Accuracy:  0.6986423931224958
+Confusion matrix:  
+[[14112   934]
+ [ 6813  3848]]
+Classification report:                
+               precision    recall  f1-score   support
+
+           0       0.67      0.94      0.78     15046
+           1       0.80      0.36      0.50     10661
+
+    accuracy                           0.70     25707
+   macro avg       0.74      0.65      0.64     25707
+weighted avg       0.73      0.70      0.67     25707
+
+GradientBoostingClassifier model
+Accuracy:  0.6816431322207959
+Confusion matrix:  
+[[13816  1230]
+ [ 6954  3707]]
+Classification report:                
+               precision    recall  f1-score   support
+
+           0       0.67      0.92      0.77     15046
+           1       0.75      0.35      0.48     10661
+
+    accuracy                           0.68     25707
+   macro avg       0.71      0.63      0.62     25707
+weighted avg       0.70      0.68      0.65     25707
+
+RandomForestClassifier model
+Accuracy:  0.970708367370755
+Confusion matrix:  
+[[14984    62]
+ [  691  9970]]
+Classification report:                
+               precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98     15046
+           1       0.99      0.94      0.96     10661
+
+    accuracy                           0.97     25707
+   macro avg       0.97      0.97      0.97     25707
+weighted avg       0.97      0.97      0.97     25707
+
+AdaBoostClassifier model
+Accuracy:  0.6342630411950052
+Confusion matrix:  
+[[12391  2655]
+ [ 6747  3914]]
+Classification report:                
+               precision    recall  f1-score   support
+
+           0       0.65      0.82      0.72     15046
+           1       0.60      0.37      0.45     10661
+
+    accuracy                           0.63     25707
+   macro avg       0.62      0.60      0.59     25707
+weighted avg       0.63      0.63      0.61     25707
+
+QuadraticDiscriminantAnalysis model
+Accuracy:  0.6247325631151048
+Confusion matrix:  
+[[13878  1168]
+ [ 8479  2182]]
+Classification report:                
+               precision    recall  f1-score   support
+
+           0       0.62      0.92      0.74     15046
+           1       0.65      0.20      0.31     10661
+
+    accuracy                           0.62     25707
+   macro avg       0.64      0.56      0.53     25707
+weighted avg       0.63      0.62      0.56     25707

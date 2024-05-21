@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+	./A4_19CS10064_19CS10057/Part_B
+	./fabric-samples/asset-transfer-basic/chaincode-go
+	/home/vanshita/Documents/Semester-7/blockchain/Assn-4/A4_19CS10064_19CS10057/Part_A
+)
